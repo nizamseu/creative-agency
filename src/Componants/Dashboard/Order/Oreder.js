@@ -7,7 +7,7 @@ const Oreder = () => {
     const {id}=useParams();
     const [service,setService]=useState([])
    useEffect(()=>{
-       fetch(`http://localhost:5000/findservice/${id}`)
+       fetch(`https://evening-shelf-01956.herokuapp.com/findservice/${id}`)
        .then(res=>res.json())
        .then(result=>{
             setService(result[0])
@@ -19,7 +19,7 @@ const Oreder = () => {
 
     const onSubmit =(data,e) => {
         console.log("data",data)
-        fetch('http://localhost:5000/order',{
+        fetch('https://evening-shelf-01956.herokuapp.com/order',{
             method:'POST',
             headers:{'content-type':'application/json'},
             body:JSON.stringify(data)

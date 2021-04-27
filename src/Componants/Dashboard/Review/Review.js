@@ -8,7 +8,7 @@ const Review = () => {
     const { register, handleSubmit, errors } = useForm(); // initialize the hook
     const onSubmit = (data,e) => {
       console.log(data);
-      fetch('http://localhost:5000/addreview',{
+      fetch('https://evening-shelf-01956.herokuapp.com/addreview',{
         method:'POST',
         headers:{'content-type':'application/json'},
         body:JSON.stringify(data)

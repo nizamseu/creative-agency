@@ -26,7 +26,7 @@ const AddService = () => {
                formData.append('description', info.description)
        console.log("agee",file,info.description,info.title);
 
-               fetch('http://localhost:5000/addservice', {
+               fetch('https://evening-shelf-01956.herokuapp.com/addservice', {
                    method: 'POST',
                    body: formData
                })

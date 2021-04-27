@@ -8,7 +8,7 @@ const Sidebar = () => {
 
     const email=userInfo.email;
     useEffect(()=>{
-        fetch(`http://localhost:5000/findAdmin/${email}`)
+        fetch(`https://evening-shelf-01956.herokuapp.com/findAdmin/${email}`)
         .then(res=>res.json())
         .then(data=>{
             setIsAdmin(data)

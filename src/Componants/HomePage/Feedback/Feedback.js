@@ -7,7 +7,7 @@ import FeedbackCard from './FeedbackCard';
 const Feedback = () => {
     const [reviews,setReviews]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/findReview')
+        fetch('https://evening-shelf-01956.herokuapp.com/findReview')
         .then(res=>res.json())
         .then(data=>{
           setReviews(data)

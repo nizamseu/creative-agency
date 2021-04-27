@@ -9,7 +9,7 @@ const ServiceList = () => {
     const email=userInfo?.email
     console.log("mailll",email);
     useEffect(()=>{
-        fetch(`http://localhost:5000/servicelist/${email}`)
+        fetch(`https://evening-shelf-01956.herokuapp.com/servicelist/${email}`)
         .then(res=>res.json())
         .then(data=>{
             console.log(data);

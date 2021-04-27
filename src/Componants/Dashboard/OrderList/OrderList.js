@@ -22,7 +22,7 @@ const OrderList = () => {
       setOpen(false);
     };
     useEffect(()=>{
-        fetch('http://localhost:5000/orderList')
+        fetch('https://evening-shelf-01956.herokuapp.com/orderList')
         .then(res=>res.json())
         .then(data=>{
             setOrderDatas(data)
