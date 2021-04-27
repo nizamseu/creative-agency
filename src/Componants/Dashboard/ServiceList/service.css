@@ -1,0 +1,15 @@
+.services{
+    background:#F4F7FC;
+    height: 100vh;
+    
+}
+.servicesImage{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.serviceData{
+    overflow:hidden;
+    text-overflow:ellipsis;
+   
+}

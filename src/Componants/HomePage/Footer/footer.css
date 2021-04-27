@@ -1,0 +1,20 @@
+.footermain{
+    background: #FBD062;
+}
+.formInput input{
+    border: none;
+    padding-left:15px;
+    border-bottom:15px;
+    width: 85%;
+    height: 50px;
+}
+.formInput textarea{
+    height: 150px;
+    border: none;
+    padding-left:15px;
+    border-bottom:15px;
+    width: 85%;
+    
+
+}
+

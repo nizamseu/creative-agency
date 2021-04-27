@@ -1,0 +1,18 @@
+.review{
+    margin: 15px;
+    
+}
+.review input{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+}
+.review textarea{
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+}
+.reviewArea{
+    background-color: #F4F7FC;
+    height: 100vh;
+}

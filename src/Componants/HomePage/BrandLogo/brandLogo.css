@@ -1,0 +1,10 @@
+.brandLogo{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.brandLogo img{
+    margin: 32px;
+    justify-content: center;
+    height: 50px;
+    padding-left: 50px;
+}

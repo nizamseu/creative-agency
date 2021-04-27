@@ -1,0 +1,20 @@
+
+
+.order{
+    margin: 0 auto;
+    background-color: #F4F7FC;
+    width: 100vw;
+    padding-left: 150px;
+   
+   
+}
+.order input{
+    width: 30%;
+    height: 50px;
+    padding-left: 15px;
+}
+.order textarea{
+    width: 30%;
+    height: 150px;
+    padding-left: 15px;
+}

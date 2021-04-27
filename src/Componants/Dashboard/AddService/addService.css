@@ -1,0 +1,15 @@
+/* input[type='file']{
+    display: none;
+} */
+.addService{
+    background-color: #F4F7FC;
+    height: 100vh;
+    padding: 20px;
+    
+}
+.addServiceArea{
+    background-color: white;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+}
